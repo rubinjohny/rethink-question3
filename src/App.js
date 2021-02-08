@@ -1,8 +1,10 @@
+import {Dashboard} from './Containers/Dashboard'
+import 'antd/dist/antd.css'
 
 function App() {
   return (
     <div>
-      app
+      <Dashboard />
     </div>
   );
 }
