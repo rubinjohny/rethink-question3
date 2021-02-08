@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { SearchField } from '../Components/SearchField'
 import {encode, decode, getMap} from '../Services/ShortenURL'
+import {Intro} from '../Components/Intro'
 import { DataSection } from '../Components/DataSection'
 import { notification } from 'antd'
 import "../App.css"
@@ -46,7 +47,7 @@ export const Dashboard = () => {
     return(
         <div className="dashboard">
             <div className="content">
-                {/* <Intro /> */}
+                <Intro />
                 <div className="search-fields-container">
                     <SearchField 
                         placeholder="Input Domain to shorten"
